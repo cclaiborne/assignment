@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-   <div class="field">
+      <div class="field">
         <%= f.select :student_id, Student.all.collect { |p| [ p.name, p.id ] } %>
       </div>
       <div class="field">
